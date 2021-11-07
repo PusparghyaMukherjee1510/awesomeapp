@@ -1,0 +1,92 @@
+h1{
+    font-size: 50px;
+    margin: 0 0 16px 0;
+    text-align: center;
+}
+h3{
+font-weight: 300;
+font-size: 25px;
+margin: 0 0 16px 0;
+color:lightblue;
+}
+.container{
+    margin: 0 auto;
+    padding: 20px 20px 20px 20px;
+    max-width: 100%;
+    background-color: brown;
+    color: cornsilk;
+    text-align: center;
+}
+.btn{
+    display: inline-block;
+    color: red;
+    background-color: yellow ;
+    border: none;
+    border-radius: 5px;
+    padding: 12px 16px;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 20px;
+}
+.btn:hover{
+    background-color: white;
+    color: black;
+}
+h1:hover{
+    color:yellow;
+    background-color: transparent;
+}
+h3:hover{
+    color: white;
+}
+.hlt{
+    display: inline-block;
+    width: 30%;
+    font-size: 15px;
+}
+.hlt img{
+    width: 40%;
+}
+.cas{
+    margin: 0 auto;
+    padding: 20px 10px 10px 10px;
+    max-width: 100%;
+    background-color:wheat;
+    text-align: center;
+}
+blockquote{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+blockquote p{
+    margin: 0 0 5px 0;
+    font-size: 20px;
+    font-style: italic;
+}
+blockquote cite::before{
+    content: '-';
+    margin-right: 5px;
+}
+
+.das{
+    margin: 0;
+    padding: 25px 5px 25px 5px;
+    background-color: wheat;
+}
+
+footer ul{
+    text-align: center;
+}
+
+footer p:hover{
+    color: black;
+}
+footer li{
+      display: inline-block;
+      padding: 5px 5px 5px 5px;
+}
+
+footer li a:hover{
+         color: yellow;
+}
